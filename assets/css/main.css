@@ -1,3 +1,42 @@
+body {
+	background-image: url('../images/qbkls.png');
+}
+
+.container-fluid {
+	padding: 0;
+	background-color: #fff;
+}
+
+.container {
+	padding: 0;
+}
+
+.header {
+	border-bottom: 1px solid #ccc;
+}
+
 .navbar-brand {
 	background-color: #4aaaa5;
+	color: #fff;
+	margin: 0;
+	padding: 20px 30px;
+}
+
+.nav-link {
+	color: #777777;
+}
+
+.nav-link:hover {
+	color: #4aaaa5;
+}
+
+@media screen and (max-width: 768px) {
+	.navbar-brand {
+		display: block;
+		margin: 0;
+	}
+	.container {
+		min-width: 100%;
+		overflow: hidden;
+	}
 }
