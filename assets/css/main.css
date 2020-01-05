@@ -30,6 +30,11 @@ body {
 	color: #4aaaa5;
 }
 
+.content {
+	background-color: #fff;
+	margin: 60px auto;
+}
+
 @media screen and (max-width: 768px) {
 	.navbar-brand {
 		display: block;
