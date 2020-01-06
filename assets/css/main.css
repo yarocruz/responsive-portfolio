@@ -2,6 +2,18 @@ body {
 	background-image: url('../images/qbkls.png');
 }
 
+p {
+	color: #666666;
+	line-height: 1.5em;
+}
+
+.flex-wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: space-between;
+}
+
 .container-fluid {
 	padding: 0;
 	background-color: #fff;
@@ -32,7 +44,7 @@ body {
 
 .content {
 	background-color: #fff;
-	margin: 60px auto;
+	min-height: 620px;
 }
 
 footer.container-fluid {

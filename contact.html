@@ -13,56 +13,61 @@
 
 <body>
 
-    <div class="container-fluid header">
+    <div class="flex-wrapper">
 
-        <div class="container">
-            <div class="row d-flex align-items-center">
+        <div class="container-fluid header">
 
-                <div class="col-md-4 col-xs-12">
-                    <h1 class="navbar-brand text-center">Yarosky Cruz</h1>
-                </div>
+            <div class="container">
+                <div class="row d-flex align-items-center">
 
-                <div class="col-md-8 col-xs-12">
-                    <ul class="nav justify-content-md-end justify-content-center">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
+                    <div class="col-md-4 col-xs-12">
+                        <h1 class="navbar-brand text-center">Yarosky Cruz</h1>
+                    </div>
+
+                    <div class="col-md-8 col-xs-12">
+                        <ul class="nav justify-content-md-end justify-content-center">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
+
+        <div class="container content p-4 my-5">
+            <h4>Contact</h4>
+            <hr>
+
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputName">Name</label>
+                    <input type="name" class="form-control" id="exampleInputEmail1">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail">Email</label>
+                    <input type="email" class="form-control" aria-describedby="emailHelp">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail">Message</label>
+                    <textarea name="message" class="form-control" id="message" cols="30" rows="10"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-info">Submit</button>
+            </form>
+
+        </div>
+
+        <footer class="container-fluid text-center py-3">Copyright &copy;</footer>
     </div>
 
-    <div class="container content p-4">
-        <h4>Contact</h4>
-        <hr>
 
-        <form>
-            <div class="form-group">
-                <label for="exampleInputName">Name</label>
-                <input type="name" class="form-control" id="exampleInputEmail1">
-            </div>
-            <div class="form-group">
-                <label for="exampleInputEmail">Email</label>
-                <input type="email" class="form-control" aria-describedby="emailHelp">
-            </div>
-            <div class="form-group">
-                <label for="exampleInputEmail">Message</label>
-                <textarea name="message" class="form-control" id="message" cols="30" rows="10"></textarea>
-            </div>
-
-            <button type="submit" class="btn btn-info">Submit</button>
-        </form>
-
-    </div>
-
-    <footer class="container-fluid text-center fixed-bottom py-4 mt-4">Copyright &copy;</footer>
 
 
 </body>
