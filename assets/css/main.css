@@ -7,6 +7,10 @@ p {
 	line-height: 1.5em;
 }
 
+h4 {
+	color: #4aaaa5;
+}
+
 .flex-wrapper {
 	display: flex;
 	flex-direction: column;
@@ -44,6 +48,10 @@ p {
 
 .content {
 	background-color: #fff;
+}
+
+.btn-info {
+	background-color: #4aaaa5;
 }
 
 footer.container-fluid {
