@@ -8,7 +8,7 @@ This is the [bootstraped](https://getbootstrap.com/) version of the [barebones p
 
 ## Technologies
 
-Built with plain ol' HTML and CSS, but the main focus was to use [Bootstrap](https://getbootstrap.com/). Media queries were added accordingly to make website responsive. Used he grid system with containers, rows, and columns to layout the pages. Used components like navs, card components for the portfolio page, and the form group components to build out the form. Used very minimal media queries since the grid system took care for most of the responsive behaviour. 
+Built with plain ol' HTML and CSS, but the main focus was to use [Bootstrap](https://getbootstrap.com/). Media queries were added accordingly to make website responsive. Used he grid system with containers, rows, and columns to layout the pages. Used components like navs, card components for the portfolio page, and the form group components to build out the form. Used very minimal media queries and custom CSS since the grid system took care for most of the responsive behaviour. 
 
 ## Problems / Solutions
 
